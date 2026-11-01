@@ -1,0 +1,85 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #263238;
+    background-color: #f8fafc;
+}
+
+/* Navigation */
+header {
+    background-color: #ffffff;
+    padding: 20px 8%;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.hero {
+    padding: 45px;
+    background-color: #eaf2ff;
+    border-radius: 12px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+section {
+    margin-top: 35px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #1d4ed8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #172554;
+    color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    main {
+        margin: 15px auto;
+        padding: 12px;
+    }
+
+    .hero {
+        padding: 25px;
+    }
+
+    .hero h1 {
+        font-size: 27px;
+    }
+}
